@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/site.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Feedback Form</h1>
+        <main>
+            <form  action="https://cs12.net/form/submit.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="feedback">Feedback</label>
+                <textarea name="" id="feedback" cols="30" rows="10"></textarea>
+                <input type="hidden" name="__mailto" value="YOUR EMAIL ADDRESS" />
+                <input type="hidden" name="__mailkey"
+            value="cscie12-spring-2022-YOURNETID" />
+                <button>Submit Feedback</button>
+            </form>    
+        </main>
+        <footer>
+            <p>Feedback Form is part of an assignment for CSI E-12</p>
+        </footer>  
+    </header> 
+</body>
+</html>
